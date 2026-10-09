@@ -1,0 +1,23 @@
+; Exports of our ddraw.dll: every one is forwarded to cnc-ddraw.dll (the real DirectDraw wrapper, shipped renamed).
+EXPORTS
+  AcquireDDThreadLock=cnc-ddraw.AcquireDDThreadLock
+  CompleteCreateSysmemSurface=cnc-ddraw.CompleteCreateSysmemSurface
+  D3DParseUnknownCommand=cnc-ddraw.D3DParseUnknownCommand
+  DDEnableZoom=cnc-ddraw.DDEnableZoom
+  DDGetProcAddress=cnc-ddraw.DDGetProcAddress
+  DDInternalLock=cnc-ddraw.DDInternalLock
+  DDInternalUnlock=cnc-ddraw.DDInternalUnlock
+  DDIsWindowed=cnc-ddraw.DDIsWindowed
+  DirectDrawCreate=cnc-ddraw.DirectDrawCreate
+  DirectDrawCreateClipper=cnc-ddraw.DirectDrawCreateClipper
+  DirectDrawCreateEx=cnc-ddraw.DirectDrawCreateEx
+  DirectDrawEnumerateA=cnc-ddraw.DirectDrawEnumerateA
+  DirectDrawEnumerateExA=cnc-ddraw.DirectDrawEnumerateExA
+  DirectDrawEnumerateExW=cnc-ddraw.DirectDrawEnumerateExW
+  DirectDrawEnumerateW=cnc-ddraw.DirectDrawEnumerateW
+  DirectInput8Create=cnc-ddraw.DirectInput8Create
+  DirectInputCreateA=cnc-ddraw.DirectInputCreateA
+  DirectInputCreateEx=cnc-ddraw.DirectInputCreateEx
+  DirectInputCreateW=cnc-ddraw.DirectInputCreateW
+  GameHandlesClose=cnc-ddraw.GameHandlesClose
+  ReleaseDDThreadLock=cnc-ddraw.ReleaseDDThreadLock

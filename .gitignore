@@ -1,0 +1,10 @@
+# game files are copyrighted: never commit them
+work/
+# local tooling and outputs
+.venv/
+build/
+dist/
+# downloaded third-party binaries/headers (see tools/fetch_deps.ps1)
+third_party/cnc-ddraw/
+third_party/miniaudio/miniaudio.h
+*.log
